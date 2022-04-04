@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +9,23 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .App{
-  max-width: 1080px;
+  max-width: 1200px;
   margin: auto;
   padding-left: 25px;
   padding: 25px;
+}
+.btn{
+  text-align: center;
+  display: inline-block;
+  background:  #563434;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #634646;
+}
+.button{
+  text-align: center;
 }
