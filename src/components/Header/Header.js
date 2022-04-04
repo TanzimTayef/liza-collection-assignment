@@ -1,16 +1,20 @@
 import React from 'react';
+import dressImg from "../../images/dress.jpg"
+import "./Header.css"
 
 const Header = () => {
     return (
-        <nav className='mt-3'>
-            <ul className='md:flex justify-center font-bold uppercase'>
-                <li><a className='ml-12' href="/home">Home</a></li>
-                <li><a className='ml-12' href="/reviews">Reviews</a></li>
-                <li><a className='ml-12' href="/dashboard">Dashboard</a></li>
-                <li><a className='ml-12' href="/blogs">Blogs</a></li>
-                <li><a className='ml-12' href="/about">About</a></li>
-            </ul>
-       </nav>
+         <div className="home">
+         <div className="home-colum">
+             <h1>Find Your Best Choose</h1>   
+             <h1> Get Latest Dress </h1>   
+             <p> Latest collection. You will get high quality dresses on this site. So find you choosing a dress and order now. This is the number one site for women's clothes. Let’s now connect with us.</p>
+             <a href="/home" className="btn">Expolre Now</a>
+         </div>
+        <div className="home-colum">
+          <div className='img'><img src={dressImg} alt="img" /></div>
+        </div>
+            </div>
     );
 };
 

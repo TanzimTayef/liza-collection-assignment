@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import "./Reviews.css"
@@ -13,7 +14,9 @@ const Reviews = () => {
                   reviews.map(review => <Review id={review._id} review={review}></Review>)
                 }
             </div>
-           <div className='button'> <a href="/src/components/ReviewPage/ReviewPage.js" className="btn">Expolre Now</a></div>
+            <div className='button'>
+                <Link to="/reviews" className="btn">Expolre Now</Link>
+            </div>
         </div>
         
 

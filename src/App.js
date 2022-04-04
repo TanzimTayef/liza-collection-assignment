@@ -1,14 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
-import Home from './components/HomePage/Home';
+import Home from './components/Pages/Home';
 import Reviews from './components/Reviews/Reviews';
+import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
-    <div className="App container mx-auto px-2">
-     <Header />
-      <Home />
-      <Reviews /> 
-   
+    <div className="App">
+      <Navbar />
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/reviews" element={<Reviews />} />
+      </Routes>
     </div>
   );
 }
