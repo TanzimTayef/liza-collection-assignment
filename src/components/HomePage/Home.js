@@ -3,6 +3,8 @@ import dressImg from "../../images/dress.jpg"
 
 const Home = () => {
     return (
+
+
         <div className="flex flex-col lg:flex-row justify-between py-24">
         <div className="flex flex-col my-auto">
             <h1 className="lg:text-6xl font-bold pt-6 md:text-6xl text-4xl">
