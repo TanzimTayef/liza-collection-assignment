@@ -1,6 +1,6 @@
 # Liza Collection
 
-## [liza-collection Link](https://github.com/facebook/create-react-app).
+## [liza-collection](https://leafy-rabanadas-a0c30a.netlify.app/).
 
 ### `About Liza Collection`
 
