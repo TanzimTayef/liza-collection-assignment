@@ -1,9 +1,26 @@
-# Getting Started with Create React App
+# Liza Collection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [liza-collection Link](https://github.com/facebook/create-react-app).
+
+### `About This site`
+
+
+### This is a simple lady cloth website. 
+* I have been using vanilla css for design purposes.
+* I have been using react-router and rechart. From the rea chart library i am used area charts, line charts, bar charts and more pie charts.
+* There are five nav links I make, home, reviews, dashboard, blogs and about.
+* In the home page showing products and some text about websites. And more a client reviews section. In the client section showing a few client reviews. All reviews I put in the separate review page.
+* Dashboard page I put all the charts. There have four chart
+* And on the blog page I keep some questions answered.
+* I am using custom hooks for data management.
+
+
+
+
+
+
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
