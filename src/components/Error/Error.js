@@ -1,10 +1,11 @@
 import React from 'react';
+import "./Error.css"
 
 const Error = () => {
     return (
-        <div>
-            <h1>Eorror 404</h1>
-            <h2>Not Found!!!</h2>
+        <div className='error'>
+            <h1>404</h1>
+            <h2>Page Not Found!!!</h2>
         </div>
     );
 };
