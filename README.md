@@ -2,8 +2,7 @@
 
 ## [liza-collection Link](https://github.com/facebook/create-react-app).
 
-### `About This site`
-
+## About Liza Collection
 
 ### This is a simple lady cloth website. 
 * I have been using vanilla css for design purposes.
@@ -22,7 +21,6 @@
 
 ## Available Scripts
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
