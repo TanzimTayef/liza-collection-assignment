@@ -1,5 +1,5 @@
 import React from 'react';
-import dressImg from "../../images/dress.jpg"
+import dressImg from "../../images/dress.png"
 import "./Header.css"
 
 const Header = () => {

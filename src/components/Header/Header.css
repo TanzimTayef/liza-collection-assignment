@@ -8,10 +8,14 @@
     flex-basis: 50%;
     min-width: 300px;
   }
+  .home-colum .img{
+    display: flex;
+    justify-content: end;
+  
+  }
   .home-colum img{
     max-width: 100%;
     height: 500px;
-    margin-left: 200px;
   } 
   .home-colum h1{
     font-size: 46px;
@@ -21,6 +25,7 @@
   .home-colum p{
     margin-top: 12px;
   }
+
 
   @media only screen and (max-width: 600px) {
     .home{
