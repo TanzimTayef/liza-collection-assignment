@@ -6,17 +6,16 @@ import "./Reviews.css"
 const Reviews = () => {
     const [reviews, setReviews] = useProducts();
     return (
-        <div>
-             <div className="Reviews">
+        <div className='Reviews-container'>
+              <h2>Our Customer(3)</h2>
+            <div className="Reviews">
+             
                {
                   reviews.slice(0, 3).map(review => <Review key={review._id} review={review}></Review>)
                 }
-                {
-                    console.log(reviews)
-                }
             </div>
             <div className='button'>
-                <Link to="/reviewsPage" className="btn">Expolre Now</Link>
+                <Link to="/reviewsPage" className="btn">See All Reviews</Link>
             </div>
         </div>
 

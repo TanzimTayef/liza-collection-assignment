@@ -1,8 +1,16 @@
+.Reviews-container{
+    padding-top: 100px;
+}
 .Reviews{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding-top: 100px;
+    padding-top: 60px;
+}
+ h2{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {

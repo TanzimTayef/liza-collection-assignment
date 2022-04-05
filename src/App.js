@@ -5,6 +5,8 @@ import ReviewPage from "./components/Pages/ReviewPage"
 import Navbar from './components/Navbar/Navbar';
 import Error from './components/Error/Error';
 import Dashboard from './components/Pages/Dashboard';
+import Blogs from './components/Blogs/Blogs';
+import About from './components/About/About';
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,9 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/reviewsPage" element={<ReviewPage />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/blogs" element={<Blogs />} /> 
+        <Route path="/about" element={<About/>} / > 
+        
       <Route path="*" element={<Error />} />
       </Routes>
     </div>

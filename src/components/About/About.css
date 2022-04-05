@@ -1,0 +1,9 @@
+.about{
+  text-align: center;
+  padding-top: 70px;
+}
+.about h1{
+    font-size: 34px;
+    color: lightgrey;
+    user-select: none;
+}
